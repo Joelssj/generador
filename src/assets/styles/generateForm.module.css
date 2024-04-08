@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #8aacb2;
+    
+}
+
+.form {
+    min-width: 5vh;
+}
+
+.spacer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.curp {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .form {
+        min-width: 8vh;
+    }
+}
+.container {
+    min-height: 100vh;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+}
